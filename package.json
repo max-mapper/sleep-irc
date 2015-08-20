@@ -1,0 +1,19 @@
+{
+  "name": "sleep-irc",
+  "version": "1.0.0",
+  "description": "irc bot that logs data into a SLEEP stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max ogden",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "irc": "^0.3.12",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "dat-core": "^4.1.0",
+    "pump": "^1.0.0"
+  }
+}
